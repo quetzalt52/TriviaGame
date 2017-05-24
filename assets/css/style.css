@@ -1,0 +1,45 @@
+body {
+	background: url("../images/trivia.jpg");
+	background-repeat: repeat;
+}
+
+.container {
+	background: #8183aa;
+	margin: 20px auto;
+	padding: 50px 20px 50px 20px;
+	border-radius: 50px;
+	width: 70%;
+	height: 650px;
+	 line-height: 200%;
+	 overflow: auto;
+}
+
+header h1 {
+	
+	font-family: 'Monoton', cursive;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	padding-bottom: 30px;
+}
+
+#questions {
+ padding-top: 15px;
+ font-family:'Rubik', sans-serif;
+ font-weight: bold;
+ 
+}
+#results h3 {
+	background: green;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+#results span {
+	color: 000;
+	font-weight: bold;
+}
+#menu {
+	position: absolute;
+	height: 25px;
+	top:100px;
+}

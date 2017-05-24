@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta charset="UTF-8">
+	<title>Trivia Game </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Diplomata|Monoton|Open+Sans|Oswald" rel="stylesheet">
+    
+  </head>
+     
+  <body>
+  	<div class="container">  
+  		
+  		<header>
+		 	<h1> Trivia Game</h1>
+		</header>
+		
+		<div id="menu">
+		    <button id="start" onclick="loadProgram()"><h2>Start</h2></button>
+		    <button id="stop" onclick="endGame()"><h2>Stop</h2></button>
+		</div>
+
+		<div id="timer">timer </div>
+
+		<section>
+			<form name="questionForm" onsubmit="return checkAnswers()">
+				
+				<p id="questions">What brand of ground coffee does the World Almenac say is still America's best selling , despite the rise of competitors</p>
+				<label class="radio-inline">
+				 <input type="radio" id="mc1" name="question1" value="Foldger">Foldgers
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc1" name="question1" value="Nescafe">Nescafe 
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc1" name="question1" value="Donuts">Dunkin' Donuts
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc1" name="question1" value="Caribou">Caribou
+				</label>
+
+				<p id="questions">Harry Potter and the Philosopher's Stone was released in ... ?</p>
+				<label class="radio-inline">
+				 <input type="radio" id="mc2" name="question2" value="2000">2000
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc2" name="question2" value="2001">2001 
+				</label>
+				<label class="radio-inline">
+				 <input type="radio" id="mc2" name="question2" value="2002">2002 	
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc2" name="question2" value="2004">2004 
+				</label>
+
+				<p id="questions">Which of these films was not directed by Clint Eastwood ... ?</p>
+				<label class="radio-inline">
+				 <input type="radio" id="mc3" name="question3" value="Flags"> Flags of Our Fathers	
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc3" name="question3" value="Torino">Gran Torino 
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc3" name="question3" value="Lies">Body of Lies 	
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc3" name="question3" value="River"> Mystic River 
+				</label>
+				
+				<p id="questions">Axl Rose, Slash and Duff McKagan are members of </p>
+				<label class="radio-inline">
+				 <input type="radio" id="mc4" name="question4" value="Iron">Iron Maiden 	
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc4" name="question4" value="Motley">Motley Creu 
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc4" name="question4" value="Poison">Poison
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc4" name="question4" value="Roses">Guns N' Roses
+				</label>
+				
+
+				<p>Singer of 24k Magic</p>
+				<label class="radio-inline">
+				 <input type="radio" id="mc5" name="question5" value="Mark">Mark Ronson
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc5" name="question5" value="Bruno">Bruno Mars 
+				</label>
+
+				<label class="radio-inline">
+				 <input type="radio" id="mc5" name="question5" value="Williams">Pharrell Williams
+				</label>
+				
+				<label class="radio-inline">
+				 <input type="radio" id="mc5" name="question5" value="Drake">Drake 
+				</label>
+				<br><br>
+				<label>
+				 <input type = "submit" value ="Submit">
+		  		</label>
+	  		</form>
+
+	  		<div id="results"></div> 
+  		</section>
+	  		
+		
+  	</div> <!--class container -->
+
+  
+
+
+
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+  </body>
